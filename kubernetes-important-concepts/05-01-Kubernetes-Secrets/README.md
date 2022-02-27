@@ -1,7 +1,7 @@
 # Kubernetes - ConfigMaps and Secrets
 
 ## Step-01: Introduction
-- ConfigMaps are use to pass additional configurations needed to orchestarte containers including environmental variables. Examples is hostname or password.
+- ConfigMaps are use to pass additional configurations needed to orchestrate containers including environmental variables. Examples is hostname or password.
 - ConfigMaps pass values in plain text key:value pairs
 - Kubernetes Secrets let you store and manage sensitive information, such as passwords, OAuth tokens, and ssh keys. 
 - Storing confidential information in a Secret is safer and more flexible than putting it directly in a Pod definition or in a container image. 
